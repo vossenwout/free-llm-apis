@@ -2,8 +2,8 @@
 
 Scripts showing you how to invoke the API of LLM providers with a good free tier.
 
-- [src/cerebras.py](src/cerebras.py)
-- [src/groq.py](src/groq.py)
+- [src/cerebras_api.py](src/cerebras_api.py)
+- [src/groq_api.py](src/groq_api.py)
 - [src/mistral_api.py](src/mistral_api.py)
 - [src/gemini_api.py](src/gemini_api.py)
 
@@ -41,5 +41,5 @@ uv sync
 2. Run a script
 
 ```
-uv run src/cerebras.py
+uv run src/cerebras_api.py
 ```
